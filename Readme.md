@@ -23,6 +23,7 @@ This system is designed to detect face masks in real time using a combination of
 - **User-Friendly CLI:** Simple command-line interface for selecting detection modes and processing images.
 
 ## Project Structure
+```bash
 Final Submission Folder/
 ├── realtime.py               # Main file for real-time detection and CLI interface
 ├── models.ipynb              # Notebook containing training and evaluation scripts
@@ -32,7 +33,7 @@ Final Submission Folder/
     ├── full_model_resnet50.pth
     ├── model_resnet50_state_dict.pth
     └── model_resnet18_state_dict.pth
-
+```
 
 - **realtime.py:**  
   This file initializes the `FaceMaskDetector` class which loads the selected model(s) based on the specified `model_choice`. It provides functionality to:
