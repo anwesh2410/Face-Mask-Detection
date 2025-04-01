@@ -9,8 +9,6 @@ This project implements a real-time face mask detection system that classifies f
 - [Installation](#installation)
 - [Usage](#usage)
 - [Methodology and Report Highlights](#methodology-and-report-highlights)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This system is designed to detect face masks in real time using a combination of pre-trained models including ResNet18, ResNet50, and YOLOv8. The ensemble approach uses majority voting to produce reliable predictions by compensating for the limitations of individual models. The project also integrates classical face detection techniques (using a Caffe-based detector) when required.
